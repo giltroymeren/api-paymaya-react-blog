@@ -4,9 +4,7 @@ const server = jsonServer.create();
 const path = require("path");
 const router = jsonServer.router(path.join(__dirname, "init-data.json"));
 
-const middlewares = jsonServer.defaults({
-    static: "node_modules/json-server/dist"
-});
+const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 

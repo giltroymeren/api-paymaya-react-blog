@@ -26,3 +26,11 @@ const PORT = 3001;
 server.listen(PORT, () => {
     console.log('JSON Server is running...');
 });
+
+// Source: https://stackoverflow.com/a/1054862
+function getUrlSlug(url) {
+    return url
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'-')
+        .toLowerCase();
+}

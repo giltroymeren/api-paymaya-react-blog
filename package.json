@@ -1,0 +1,14 @@
+{
+  "name": "api-paymaya-react-blog",
+  "version": "1.0.0",
+  "description": "API PayMaya React Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giltroymeren@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

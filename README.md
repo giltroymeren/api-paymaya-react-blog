@@ -1,3 +1,9 @@
 # API for PayMaya React Blog
 
-Build with [json-server](https://github.com/typicode/json-serve)
+Built with [json-server](https://github.com/typicode/json-server) ⭐️
+
+## Get started
+
+1. Install dependencies using `npm install`
+2. Run the server using `node server.js`
+3. API homepage is available in `http://localhost:3001/`
